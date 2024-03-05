@@ -2,6 +2,7 @@ import sys
 import pygame
 from tree import RecursiveTree
 
+
 pygame.init()
 window_size = (800, 800)
 screen = pygame.display.set_mode(window_size)
