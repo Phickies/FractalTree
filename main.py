@@ -5,7 +5,7 @@ from tree import RecursiveTree
 
 pygame.init()
 window_size = (800, 800)
-screen = pygame.display.set_mode(window_size)
+screen = pygame.display.set_mode(window_size, pygame.HWSURFACE | pygame.DOUBLEBUF)
 clock = pygame.time.Clock()
 pygame.display.set_caption("Fractal Tree")
 
